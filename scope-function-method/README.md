@@ -85,20 +85,29 @@ Nested Function
 
     function ParentFunction(){
      this.parent_name = "Parent",
-         this.child_method = function(){
+
+            this.child_method = function(){
                 console.log('1.'+ this.parent_name);
                 }
-         var chlid_function=function(){
-        console.log('2.'+this.parent_name);          //available
+
+            var chlid_function=function(){
+
+                console.log('2.'+this.parent_name);          //available
+
                 console.log('3.'+this.child_method);        //available
+                
                 console.log('4.'+this.child_method());
+                
                 this.child_scope="Child Scope";
-            var child_name="Name Of Child";
-                }
-             console.log('5.'+chlid_function());
-           
-           // console.log(child_name)          //NA
-           // console.log(chiid_scope)        //NA
+                
+                var child_name="Name Of Child";
+
+            }
+                   console.log('5.'+chlid_function());
+               
+                // console.log(child_name)          //NA
+               
+               // console.log(chiid_scope)        //NA
        }
     
         ParentFunction();
