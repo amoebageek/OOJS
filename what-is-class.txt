@@ -1,0 +1,129 @@
+I was also confused with this part,when i get introduced to this part at first.
+
+Note: There is no strictly defined syntax to handle the class,syntax may vary as per the languages,what all we have to keep in mind is the basics of objected orieted language
+1.Inheritance
+2.Encapsulation
+3.Abstraction
+4.Polymorphisom
+
+and also others like objects,constructors,functions,instantiations etc
+
+
+1.What is Class in JS ?
+
+	   :Lets  make a class file named MyClass.js
+       		Then syntax for defining our class should be.
+
+       		class MyClass Extends someOtherClass{
+					
+				//play ground
+
+       		}
+
+       	Now i would like to tell you this is not the way that we are going to define a class in javascript.
+       	Defining a class in javascript is not the same as in other OOP languages.
+
+       	In javascript there is nothing like Class,function(not each and every defined function in JS) is treated as a class or function is defined as a class but yes the keyword class is kept reserve for some future use.
+
+       	Now see how to define a class in javascript;
+
+       	 var myClass=function(params){
+
+       	 			this.parameter=params,	
+       	 			this.name="My Name"
+
+       	 }
+
+
+       	Yes this way we define a class in javascript.
+  
+    There is so many questions in my mind after reading just the above 6 lines of code.
+
+    -> How this is class ,its just a function.
+    -> What is `this` key word
+    -> And yes is  this a new style of defining a function ?
+
+
+    Okay Let me try to answer it one by one.
+
+    --> In javascript there is nothing like a class,we follow the basics of the OO and treat a function as a class.
+        Yes you are right its a funciton but we are treating it a class.Can you notice one thing ,even if it is a function is not returing a value,its just initiating. 
+
+        Since there is no Class in javascript therefore we follow the prototype way to handle the inheritance.
+        (prototype is the next topic that we will discuss).
+
+    --> About `this` ,there are types of scopes in javascript,ie. global scope and local scope.
+
+    		Here this is a local scope with holds the property locally and made the property available only within the class or function.
+
+    --> This type of funciton declearation is known as a noname function (since this function does not have any name) or function litteral.It protects the funciton initiation processes from getting polluted.(I will clear the things more in the upcomming topics).
+
+
+Now come back to our topic.
+
+	var myClass=function(params){
+
+		this.parameter =params,
+		this.name      ="My Name" 
+
+		//here `this` will behave as a global variable which,which is available globally wherever this class is inheritted. 
+	
+	}    
+
+
+   Instantiation this class
+
+   
+   			var myObj=new myClass("pass-parameters");
+   			console.log(myObj);
+
+   Now what is inheritance ?
+   In simple words  inheritance is using the properties of one class into other.
+
+   How to do this in JS?
+   This is done with prototype or prototyping chain is the process of inheritance in javascript.
+
+   let see:
+
+   			myClass.prototype.description=function(){
+
+   				return this.name+' ! Is inherited';
+   			};
+
+   			console.log(myObj);
+   			console.log(myObj.description());
+
+   Run the above three sets of snippets in your console,you can thet we are using the name property of myClass inside the description method.
+   
+
+
+   What are function and what are methods,when call i call my funciton a method.
+
+   When a function is defined as a property of an object its is classify as a method.
+    eg. when you console above object 
+			
+		   `console.log(myObj);` 
+		    in this you can see the 
+		     Object { parameter="pass-parameters",  name="My Name",  description=function()}
+   	
+
+   			`console.log(myObj.description());`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
