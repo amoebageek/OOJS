@@ -1,2 +1,3 @@
-**Writing...**
-------------------
+
+				What is closure in JS ?
+
