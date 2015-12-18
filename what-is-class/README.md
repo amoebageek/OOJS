@@ -7,10 +7,12 @@ I was so confused with this part,when i get introduced to this.I'll try to discu
 
 Before we proceed ahead please note few points:
 *There is no strictly defined syntax to handle the class,syntax may vary as per the languages,what all we have to keep in mind is the basics of objected oriented (oo) language.*
+
 1.Inheritance
 2.Encapsulation
 3.Abstraction
 4.Polymorphism
+
 and also others like ***objects,constructors,functions,instantiations*** etc.
 ##  What is Class in JS ? 
 
@@ -145,6 +147,7 @@ What are function and what are methods,when shall i call my function a method ?
    *This is all the basics of JS class and inheritance concepts.*
    
    If in case i missed anything or you have some queries feel free to ask any question as a issue ,don't think how logical or much silly it is. :)			
+
 
 
 
