@@ -128,3 +128,10 @@ Compare the above function with the theory of the `functions`,`methods`,`local s
             } 
 
       }
+
+
+----------
+
+
+*Thanks Put your queries in issue section,ill try to make it more clear for you.*
+

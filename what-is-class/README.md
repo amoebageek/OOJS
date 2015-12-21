@@ -123,7 +123,7 @@ It took too much time of mine to build and understand a concept of prototyping.
 
  
 
-What are function and what are methods,when shall i call my function a method ?
+What are function and what are methods,when shall i call my function as a method ?
 ------------------------------------------------------------------------
 
    When a function is defined as a property of an object its is classify as a method.
@@ -152,4 +152,9 @@ What are function and what are methods,when shall i call my function a method ?
 
 
 
+
+----------
+
+
+*Thanks Put your queries in issue section,ill try to make it more clear for you.*
 

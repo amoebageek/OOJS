@@ -108,3 +108,10 @@ variable should be initialized with the value before using it.
             	var y=3;
             }
             function example_2();
+
+
+----------
+
+
+*Thanks Put your queries in issue section,ill try to make it more clear for you.*
+
