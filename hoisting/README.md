@@ -82,7 +82,7 @@ Since its a very small topic to discuss,so lets do some experiments.
 
         	var y=3;
         }
-        function example_2();
+        example_2();
 
 
 Now execute eg. 2 and check for the result.
@@ -107,7 +107,7 @@ variable should be initialized with the value before using it.
     
             	var y=3;
             }
-            function example_2();
+            example_2();
 
 
 ----------
